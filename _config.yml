@@ -1,0 +1,12 @@
+# Site settings
+title: blog
+motto:
+email: zhenglei123a@gmail.com
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://justme.cf" # the base hostname & protocol for your site
+twitter_username:
+github_username: zlei1
+
+# Build settings
+markdown: kramdown
