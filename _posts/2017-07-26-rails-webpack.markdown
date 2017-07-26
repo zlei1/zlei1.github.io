@@ -21,7 +21,7 @@ Webpack中可以配置各种插件来完成资源的中间编译处理，比如E
 
 当然我们使用Webpack来管理JS的另一个好处是不需要再手工下载第三方的JS库了 (比如jQuery，React等等)，直接在nodejs中安装就行了。
 
-![Image](../post_images/webpack.png)
+<!-- ![Image](../post_images/webpack.png) -->
 
 ## Rails的Asset Pipeline
 在Rails中有自己的静态资源管理组件Asset Pipeline，负责静态资源的压缩合并等，和Webpack作用是类似的，但是默认情况下Asset Pipeline是不支持把ES6转化成ES5的，虽然有对应的gem可以做到，但是还不是很完善，而且这些gem也都是基于nodejs的babel来实现的，所以如果你想要在项目中使用ES6，那么还是建议采用Webpack。
