@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "JWT 构建Rails API 授权登录"
-date: 2017-07-30
+title: "JWT构建Rails API授权登录"
+date: 2017-08-30
 categories: rails
 ---
 
