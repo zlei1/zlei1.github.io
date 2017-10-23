@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Hourly Production Server Database And File Backups"
+date: 2017-10-23
+categories: rails
+---
+
+## Hourly Production Server Database And File Backups
+
+#### 参考
+
+[gorails](https://gorails.com/guides/hourly-production-server-database-and-file-backups)
+[backup](http://backup.github.io/backup/v4/)
