@@ -19,7 +19,7 @@ categories: ssh
 要实现把内网端口映射到外网，最简单的方式就是通过 SSH 隧道。
 SSH 隧道就像一根管道，能把任何2台机器连接在一起，把发送到其中一台机器的数据通过管道传输到另一台机器。假如已经通过 SSH 隧道把本地开发机和外网服务器连接在了一起，外网服务器端监听在 12.34.56.78:8080，那么所有发给 12.34.56.78:8080 的数据都会通过 SSH 隧道原封不动地传输给本地开发机的 127.0.0.1:8080，如图所示：
 
-![Image](https://github.com/zlei1/zlei1.github.io/blob/master/post_images/ssh.png?raw=true)
+![Image](https://github.com/zlei1/zlei1.github.io/blob/master/images/ssh.png?raw=true)
 
 也就是说，去访问 12.34.56.78:8080 就像是访问本地开发机的 127.0.0.1:8080，本地开发机上的 8080 端口被映射到了外网服务器上的 8080 端口。
 如果你的外网服务器 IP 配置了域名解析，例如 yourdomin.com 会通过 DNS 解析为 12.34.56.78，那么也可以通过 yourdomin.com:8080 去访问本地开发机上的服务。这样就做到了访问外网地址时其实是本地服务返回的结果。
