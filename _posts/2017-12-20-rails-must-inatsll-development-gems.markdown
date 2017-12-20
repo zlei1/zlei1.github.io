@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "development rails must install gems"
+title: "7 must have Development Gems to install on every project"
 date: 2017-12-20
 categories: rails
 ---
