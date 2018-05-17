@@ -1,3 +1,11 @@
+---
+layout: post
+title: "ssh nginx"
+date: 2018-05-17
+categories: ssh
+---
+
+
 server {
   listen 80;
   server_name www.xxx.com;
