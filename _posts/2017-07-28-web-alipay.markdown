@@ -6,11 +6,6 @@ categories: rails
 ---
 ## [蚂蚁金服开发文档](https://openhome.alipay.com/developmentDocument.htm)
 
-```ruby
- 该笔记使用接口 https://mapi.alipay.com/gateway.do 老接口
- # 新版接口	https://openapi.alipay.com/gateway.do
-```
-
 ### 创建payment模型
 ```ruby
 rails g  model payment
@@ -151,7 +146,7 @@ end
 ```ruby
   ENV['ALIPAY_PID'] = 'YOUR-ALIPAY-PARTNER-ID'
   ENV['ALIPAY_MD5_SECRET'] = 'YOUR-ALIPAY-MD5-SECRET'
-  ENV['ALIPAY_URL'] = 'https://mapi.alipay.com/gateway.do'
+  ENV['ALIPAY_URL'] = 'https://openapi.alipay.com/gateway.do'
   ENV['ALIPAY_RETURN_URL'] = 'http://localhost:3000/payments/pay_return'
   ENV['ALIPAY_NOTIFY_URL'] = 'http://localhost:3000/payments/pay_notify'
 ```
@@ -403,33 +398,3 @@ end
    self.save!
  end
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#

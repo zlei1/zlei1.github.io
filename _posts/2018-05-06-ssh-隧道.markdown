@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "ssh nginx"
+title: "nginx实现服务器访问本地资源"
 date: 2018-05-17
 categories: ssh
 ---
 
-
+```shell
 server {
   listen 80;
-  server_name www.xxx.com;
+  server_name xxx;
   location / {
     proxy_set_header Host $host;
     proxy_set_header X-Forwarded-Host $host;
@@ -22,3 +22,4 @@ server {
 
 
 ssh user@host -N -R 8180:0.0.0.0:3000
+```

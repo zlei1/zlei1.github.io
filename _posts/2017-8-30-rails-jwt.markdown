@@ -5,8 +5,6 @@ date: 2017-08-30
 categories: rails
 ---
 
-### [作者falm](http://www.jianshu.com/u/78bdcbcac036)
-
 ### JWT
 
 在JWT的规范定义中，它由头部，载荷和签名，三部分字符串组成其中前两部分是用JSON对象进过Base64编码而来的。
