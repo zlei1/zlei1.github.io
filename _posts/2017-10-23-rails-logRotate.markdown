@@ -8,12 +8,8 @@ categories: rails
 ## Rotating Rails Production Logs with LogRotate
 
 #### 参考
-[gorails](https://gorails.com/guides/rotating-rails-production-logs-with-logrotate)
-[logrotate](http://blog.csdn.net/cjwid/article/details/1690101)
-[stackoverflow](https://stackoverflow.com/questions/4883891/ruby-on-rails-production-log-rotation)
 
 #### Keep your log files in check as time goes on and make sure they don't fill up your server's disk space
-
 
 ### Overview
 
